@@ -1,0 +1,8 @@
+#para remover um repositorio que foi adicionado pelo add-apt-directory faça
+#o seguinte:
+
+	sudo add-apt-repository "nome do repositorio" --remove
+	sudo apt-get update
+#para remover pacotes que não são mais necessarios pelo sistema faça:
+	
+	sudo apt-get autoremove
